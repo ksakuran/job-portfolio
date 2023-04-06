@@ -1,8 +1,8 @@
 import React from "react";
 
 
-export default function Contact() {
+export default function Why() {
   return (
-
+    <section id='why'>why</section>
   )
 }
