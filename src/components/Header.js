@@ -3,6 +3,9 @@ import React from "react";
 
 export default function Header() {
   return (
-    <section id='header'>header</section>
+    <section id='header'>
+      <h1>Hello Company</h1>
+      <p>I wanted to show you how excited I would be to work at your company through this unique "cover letter" of sorts</p>
+    </section>
   )
 }
