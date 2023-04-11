@@ -8,6 +8,7 @@ import About from "@/components/About";
 import Why from "@/components/Why";
 import Contact from "@/components/Contact";
 import Projects from "@/components/Projects";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -31,6 +32,7 @@ export default function Home() {
       <Why></Why>
       <Projects></Projects>
       <Contact></Contact>
+      <Footer></Footer>
     </>
   );
 }

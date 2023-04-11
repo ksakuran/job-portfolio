@@ -5,7 +5,7 @@ import { FaBars } from 'react-icons/fa'
 export default function Nav() {
   return (
     <nav className='nav-bar'>
-    <h1 className='logo-name'>Katherine Nishimura</h1>
+    <h1 className='logo-name'>Katherine <span id="last-name">Nishimura</span></h1>
     <ul className='nav-list'>
       <li className='nav-item'><Link href={'#about'}>About Me</Link></li>
       <li className='nav-item'><Link href={'#why'}>Why You and I</Link></li>
