@@ -1,6 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
+import { FiArrowRight } from "react-icons/fi";
+import { GrLocationPin } from "react-icons/gr";
 
 export default function About() {
+  const [winnipeg, setWinnipeg] = useState(true);
+  const [toronto, setToronto] = useState(false);
+  const [vancouver, setVancouver] = useState(false);
+
+  const winnipegClick = () => {
+    setToronto(false);
+    setVancouver(false);
+    setWinnipeg(true);
+  };
+
+  const torontoClick = () => {
+    setToronto(true);
+    setVancouver(false);
+    setWinnipeg(false);
+  };
+
+  const vancouverClick = () => {
+    setToronto(false);
+    setVancouver(true);
+    setWinnipeg(false);
+  };
+
   return (
     <section id="about">
       <div className="about-headshot">
@@ -28,37 +52,48 @@ export default function About() {
         <div id="story-desc">
           <h4>My Story</h4>
           <article>
-            <h4>Winnipeg</h4>
-            <p className="story">
-              I grew up in a small city, a few hours from Winnipeg. I moved to
-              Winnipeg after recieving a promotion for work. I worked in retail
-              management and then transitioned restaurant management. I fell in
-              love with the city and it's charms and made some lifelong friends
-              but soon I realized I wanted to have new experiences.
-            </p>
-          </article>
-          <article>
-            <h4>Toronto</h4>
-            <p className="story">
-              I wanted to pursue my love for painting and drawing and my desire
-              to be creative. In 2019 decided to move to Toronto to attend OCAD
-              University. Then the pandemic hit, and the education I longed for
-              had become an entirely unexpected experience. I felt very
-              dissatisifed with the path I was on. I started to wonder about
-              other ways I could be creative and decided that I wanted to try
-              Web Development.
-            </p>
-          </article>
-          <article>
-            <h4>Vancouver</h4>
-            <p className="story">
-              Once the pandemic had slowed down I decided to move to Vancouver
-              to be closer to nature and to my sister. In 2022 I decided to go
-              to Lighthouse Labs to try the bootcamp and see if Web Development
-              was for me. By March 2023 I successfully earned a diploma in Web
-              Development. I loved every step of the way and felt like I finally
-              was on the right path.
-            </p>
+            <span>
+              <button onClick={() => {winnipegClick()}}>
+                Winnipeg <FiArrowRight></FiArrowRight>
+              </button>
+              <button onClick={() => {torontoClick()}}>
+                Toronto <FiArrowRight></FiArrowRight>
+              </button>
+              <button onClick={() => {vancouverClick()}}>
+                Vancouver <GrLocationPin></GrLocationPin>
+              </button>
+            </span>
+            {winnipeg && (
+              <p className="story">
+                I was born in Winnipeg, but grew up in a small city, a few hours
+                away. I moved back to Winnipeg in 2015 after recieving a
+                promotion for work. I worked in retail management and then
+                transitioned into restaurant management. I fell in love with the
+                city and it's charms and made some lifelong friends but soon I
+                realized I wanted to have new experiences.
+              </p>
+            )}
+            {toronto && (
+              <p className="story">
+                I wanted to pursue my love for painting and drawing and my
+                desire to be creative. In 2019 decided to move to Toronto to
+                attend OCAD University. Then the pandemic hit, and the education
+                I had longed for became an entirely unexpected experience. I
+                felt very dissatisifed with the path I was on. I started to
+                wonder about other ways I could be creative and decided that I
+                wanted to try Web Development.
+              </p>
+            )}
+            {vancouver && (
+              <p className="story">
+                In 2022 once the pandemic had slowed down I decided to move to Vancouver
+                to be closer to nature and to my sister. I decided to go
+                to Lighthouse Labs to try the bootcamp and see if Web
+                Development was for me. By March 2023 I successfully earned a
+                diploma in Web Development. I loved every step of the way and
+                felt like I finally was on the right path.
+              </p>
+            )}
           </article>
         </div>
       </div>
