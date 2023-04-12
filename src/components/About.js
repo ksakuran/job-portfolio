@@ -75,7 +75,7 @@ export default function About() {
             )}
             {toronto && (
               <p className="story">
-                I wanted to pursue my love for painting and drawing so in 2019 decided to move to Toronto to
+                I wanted to pursue my love for painting so in 2019 I decided to move to Toronto to
                 attend OCAD University. When the pandemic hit the education
                 I had longed for became an entirely unexpected experience. I
                 felt very dissatisifed with the path I was on and I did not want to feel trapped by the "sunken cost fallacy". I started to
