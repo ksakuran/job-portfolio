@@ -254,6 +254,10 @@ h6 {
 #project-header {
   margin-bottom: 2%;
 }
+#contact {
+  height: 92vh;
+  padding-bottom: 2%;
+}
 
 #back-top {
   position: fixed;
@@ -274,7 +278,7 @@ h6 {
 }
 
 #fact-button {
-  margin-top: 5%;
+  margin-top: 2.5%;
   border: black;
   border-style: solid;
   border-width: 2px;
@@ -291,6 +295,7 @@ h6 {
   line-height: 1.8;
   margin-top: 1.8%;
   margin-left: 1.8;
+  margin-bottom: 3.5%;
   font-size: 90%;
 }
 
@@ -311,7 +316,8 @@ h6 {
   margin-top: 0;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  column-gap: 10%;
   font-size: 75%;
   width: 90%;
 }
@@ -391,6 +397,18 @@ h6 {
 /* Tablet and Smaller Desktop */
 @media (min-width: 801px) and (max-width: 1120px) {
 
+  article.about-me {
+    font-size: 90%;
+  }
+
+  #story-desc {
+    margin-top: 3%;
+  }
+
+  p.story {
+    font-size: 80%;
+  }
+
   .hello-company {
     /* font-size: 110%; */
     margin-right: 2.5%;
@@ -428,6 +446,9 @@ h6 {
     height: 90vh;
   }
 
+  #why {
+    height: 95vh;
+  }
 
 a {
   color: inherit;
