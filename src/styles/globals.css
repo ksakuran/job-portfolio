@@ -303,6 +303,7 @@ h6 {
 .contact-info {
   margin-top: 1.5%;
   justify-content: center;
+  font-size: 80%;
 }
 
 #contact {
@@ -385,6 +386,11 @@ h6 {
 
 @media (max-width: 600px) {
 
+  #why {
+    margin-top: 65vh;
+    height: 200vh;
+  }
+
   #hamburger {
     position: fixed;
     right: 2%;
@@ -448,7 +454,7 @@ h6 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-bottom: 20%;
+    margin-bottom: 25vh;
     align-items: flex-start;
 
   }
@@ -467,19 +473,19 @@ h6 {
   }
 
   #projects {
-    height: 80vh;
+    margin-top: 40vh;
+    height: 100vh;
     padding-left: 1%;
   }
 
   p.slider-p {
-    padding-bottom: 20%;
-    min-height: 320px;
+    padding-bottom: 55%;
+    max-height: 330px;
   }
 
   img.slider-img {
-    display: flex;
-    align-self: center;
-    margin: 12.5%;
+    margin-bottom: 10%;
+    margin-left: 12.2%;
     width: 75%;
   }
 
@@ -494,8 +500,10 @@ h6 {
     height: 180vh;
   }
 
+
+
   #contact {
-    height: 100vh;
+    height: 115vh;
     padding-left: 1%;
   }
 
@@ -629,6 +637,10 @@ h6 {
     margin-bottom: 10%;
   }
 
+  #projects {
+    height: 50vw;
+  }
+
   #mission {
     width: 60%;
   }
@@ -654,7 +666,7 @@ h6 {
   }
 
   section {
-    height: 90vh;
+    height: 50vh;
   }
 
   #why {
