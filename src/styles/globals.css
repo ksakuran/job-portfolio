@@ -385,6 +385,31 @@ h6 {
 
 @media (max-width: 600px) {
 
+  #hamburger {
+    position: fixed;
+    right: 2%;
+    top: 2.5%;
+    border: none;
+  }
+
+  ul.nav-list {
+    visibility: hidden;
+  }
+
+  #nav-list {
+    width: 100vw;
+    background-color: #E7DFF6;
+    position: fixed;
+    top: 7%;
+    right: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 3%;
+  }
+
   .hidden {
     visibility: visible;
   }
@@ -410,6 +435,7 @@ h6 {
 
   .logo-name {
     font-size: 90%;
+
   }
 
   #projects {
@@ -497,10 +523,41 @@ h6 {
 }
 
 
+
 /* -largeMobile */
 @media (min-width: 601px) and (max-width: 800px) {
+
+  #hamburger {
+    position: fixed;
+    right: 2%;
+    top: 2.5%;
+    border: none;
+  }
+
+  ul.nav-list {
+    visibility: hidden;
+  }
+
+  #nav-list {
+    width: 100vw;
+    background-color: #E7DFF6;
+    position: fixed;
+    top: 7%;
+    right: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 3%;
+  }
+
   .hidden {
     visibility: visible;
+  }
+
+  ul.nav-list {
+    visibility: hidden;
   }
 
   div#kat-desc {
