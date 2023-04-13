@@ -37,15 +37,25 @@ export default function Contact() {
     <section id="contact">
       <h1>Contact</h1>
       
+      <div>
       <p className="contact-info"><a href='https://www.linkedin.com/in/katherine-nishimura-89824b175/' target='_blank' rel="noreferrer noopener"><FiLinkedin /></a> LinkedIn: Katherine Nishimura</p>
         <p className="contact-info"><a href='https://github.com/ksakuran' target='_blank' rel="noreferrer noopener"><FiGithub /></a> GitHub: ksakuran</p>
         <p className="contact-info"><a href='https://mail.google.com/mail/?view=cm&source=mailto&to=katherine.nishimura@live.ca' target='_blank' rel="noreferrer noopener"><FiMail /></a> Email: katherine.nishimura@live.ca</p>
         <p className="contact-info"><FiPhone></FiPhone> Mobile Phone: 1-204-740-0205</p>
-
+        </div>
         <div id="fun-fact">
-          <button id="fact-button" onClick={() => factClick()}>Fun Facts</button>
+          <button id="fact-button" onClick={() => factClick()}>Random Fun Fact</button>
           {fact && <p id="kat-fact">{displayFact}</p>}
         </div>
+
+        <div>
+          <h2 id="refer-header">References</h2>
+        <div id="references">
+          <article><h4>Kat Connolly</h4><a href='https://mail.google.com/mail/?view=cm&source=mailto&to=hi.connkat@gmail.com' target='_blank' rel="noreferrer noopener">hi.connkat@gmail.com</a><p>Mentor, Lighthouse Labs</p></article>
+          <article><h4>Brianna Wilde</h4><a href='https://mail.google.com/mail/?view=cm&source=mailto&to=briannawilde@joeyrestaurants.com' target='_blank' rel="noreferrer noopener">briannawilde@joeyrestaurants.com</a><p>Manager, Joey Restaurant Group</p></article>
+        </div>
+        </div>
+        
 
 
     </section>

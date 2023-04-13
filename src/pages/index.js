@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Kat Nishimura Portofolio</title>
+        <title>Kat Nishimura Portfolio</title>
         <meta name="description" content="Katherine Nishimura's Portfolio" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
