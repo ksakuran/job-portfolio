@@ -383,13 +383,167 @@ h6 {
 }
 
 
+@media (max-width: 600px) {
 
-
-
-/* Mobile */
-@media (max-width: 800px) {
   .hidden {
     visibility: visible;
+  }
+
+  div#kat-desc {
+    padding-bottom: 5%;
+  }
+
+  div.why-desc {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  h2 {
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+
+  article.why-reasons {
+    width: 100%
+  }
+
+  .logo-name {
+    font-size: 90%;
+  }
+
+  #projects {
+    margin-top: 25%;
+    height: 65vh;
+  }
+
+  #header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 20%;
+    align-items: flex-start;
+
+  }
+
+  #about {
+    margin-top: 10%;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  span {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #projects {
+    height: 80vh;
+    padding-left: 1%;
+  }
+
+  p.slider-p {
+    padding-bottom: 20%;
+    min-height: 320px;
+  }
+
+  img.slider-img {
+    display: flex;
+    align-self: center;
+    margin: 12.5%;
+    width: 75%;
+  }
+
+  img#headshot {
+    margin: 1.5%;
+    width: 25vw;
+    height: 25vw;
+    margin-bottom: 15%;
+  }
+
+  section {
+    height: 180vh;
+  }
+
+  #contact {
+    height: 100vh;
+    padding-left: 1%;
+  }
+
+  .hello-company {
+    margin-left: 0%;
+  }
+
+  #kat-fact {
+    width: 80%;
+  }
+
+  #references {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  article.reference-info {
+    padding-top: 5%;
+  }
+
+  p.contact-info {
+    font-size: 75%;
+  }
+}
+
+
+/* -largeMobile */
+@media (min-width: 601px) and (max-width: 800px) {
+  .hidden {
+    visibility: visible;
+  }
+
+  div#kat-desc {
+    padding-bottom: 5%;
+  }
+
+  div.why-desc {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  h2 {
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+
+  article.why-reasons {
+    width: 100%
+  }
+
+  .logo-name {
+    font-size: 90%;
+  }
+
+  #projects {
+    margin-top: 25%;
+    height: 65vh;
+  }
+
+  #header {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  section {
+    height: 155vh;
+  }
+
+  #contact {
+    height: 110vh;
   }
 
 }

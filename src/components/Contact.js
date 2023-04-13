@@ -51,8 +51,8 @@ export default function Contact() {
         <div>
           <h2 id="refer-header">References</h2>
         <div id="references">
-          <article><h4>Kat Connolly</h4><a href='https://mail.google.com/mail/?view=cm&source=mailto&to=hi.connkat@gmail.com' target='_blank' rel="noreferrer noopener">hi.connkat@gmail.com</a><p>Mentor, Lighthouse Labs</p></article>
-          <article><h4>Brianna Wilde</h4><a href='https://mail.google.com/mail/?view=cm&source=mailto&to=briannawilde@joeyrestaurants.com' target='_blank' rel="noreferrer noopener">briannawilde@joeyrestaurants.com</a><p>Manager, Joey Restaurant Group</p></article>
+          <article className="reference-info"><h4>Kat Connolly</h4><a href='https://mail.google.com/mail/?view=cm&source=mailto&to=hi.connkat@gmail.com' target='_blank' rel="noreferrer noopener">hi.connkat@gmail.com</a><p>Mentor, Lighthouse Labs</p></article>
+          <article className="reference-info"><h4>Brianna Wilde</h4><a href='https://mail.google.com/mail/?view=cm&source=mailto&to=briannawilde@joeyrestaurants.com' target='_blank' rel="noreferrer noopener">briannawilde@joeyrestaurants.com</a><p>Manager, Joey Restaurant Group</p></article>
         </div>
         </div>
         
