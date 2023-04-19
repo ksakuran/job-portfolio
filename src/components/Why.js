@@ -1,15 +1,15 @@
-import React from "react";
-import { FaRegHandshake } from "react-icons/fa";
-import { TbPlant, TbSparkles } from "react-icons/tb";
+import React from 'react';
+import { FaRegHandshake } from 'react-icons/fa';
+import { TbPlant, TbSparkles } from 'react-icons/tb';
 
 export default function Why() {
   return (
-    <section id="why">
-      <div className="why-div">
+    <section id='why'>
+      <div className='why-div'>
         <h2>Why I Want To Work For This Company</h2>
         <h6>some things that I love about this company...</h6>
-        <div className="why-desc">
-          <article className="why-reasons">
+        <div className='why-desc'>
+          <article className='why-reasons'>
             <h5>Creativity</h5>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -17,7 +17,7 @@ export default function Why() {
               quam elementum pulvinar etiam non quam lacus suspendisse.
             </p>
           </article>
-          <article className="why-reasons">
+          <article className='why-reasons'>
             <h5>Innovation</h5>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -25,7 +25,7 @@ export default function Why() {
               quam elementum pulvinar etiam non quam lacus suspendisse.
             </p>
           </article>
-          <article className="why-reasons">
+          <article className='why-reasons'>
             <h5>Strong Team</h5>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -36,10 +36,10 @@ export default function Why() {
         </div>
       </div>
 
-      <div className="why-div">
+      <div className='why-div'>
         <h2>Why You Should Hire Me</h2>
-        <div className="why-desc">
-          <article className="why-reasons">
+        <div className='why-desc'>
+          <article className='why-reasons'>
             <h5>
               I am passionate <TbSparkles></TbSparkles>
             </h5>
@@ -50,7 +50,7 @@ export default function Why() {
               through the art of web development.
             </p>
           </article>
-          <article className="why-reasons">
+          <article className='why-reasons'>
             <h5>
               I am a lifelong learner <TbPlant></TbPlant>
             </h5>
@@ -61,7 +61,7 @@ export default function Why() {
               expand my skillset.
             </p>
           </article>
-          <article className="why-reasons">
+          <article className='why-reasons'>
             <h5>
               I am a great teammate <FaRegHandshake></FaRegHandshake>
             </h5>
