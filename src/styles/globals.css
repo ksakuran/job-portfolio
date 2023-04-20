@@ -685,3 +685,33 @@ a:hover {
   color: #EA3D14;
 }
 }
+
+
+@media (min-width: 2100px) {
+
+  nav.nav-bar {
+    font-size: 145%;
+  }
+
+  .hello-company {
+    font-size: 250%;
+    margin-right: 1.5%;
+  }
+  p#mission {
+    font-size: 150%;
+  }
+  #about {
+    font-size: 135%;
+  }
+  #why {
+    font-size: 135%;
+  }
+
+  #projects {
+    font-size: 135%;
+  }
+  #contact {
+    font-size: 135%;
+  }
+
+}
