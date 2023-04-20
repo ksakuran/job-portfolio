@@ -90,7 +90,7 @@ export default function About() {
                 to Lighthouse Labs to try their bootcamp and see if Web
                 Development was for me. In March 2023 I successfully earned a
                 diploma in Web Development. I loved every step of the way and
-                felt like I finally was on the right path.
+                felt like I was finally on the right path.
               </p>
             )}
           </article>
