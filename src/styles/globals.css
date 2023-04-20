@@ -31,7 +31,7 @@ a:hover {
   font-style: italic;
   font-weight: 600;
   width: 25%;
-  font-size: 120%;
+  font-size: 130%;
 }
 
 nav {
@@ -70,7 +70,8 @@ button {
   background: transparent;
   border: none;
   font-family: "IBM Plex Mono", monospace;
-  font-weight: 500;
+  font-weight: 600;
+  font-style: italic;
   /* margin-left: 4%; */
   margin-right: 1.5%;
   padding: 1%;
@@ -335,7 +336,7 @@ article.reference-info {
 
 /* title styles */
 .hello-company{
-  font-size: 180%;
+  font-size: 190%;
   position: relative;
   overflow: hidden;
   display: block;
@@ -394,7 +395,11 @@ article.reference-info {
 
   #why {
     margin-top: 65vh;
-    height: 200vh;
+    height: 260vh;
+  }
+  h6 {
+    font-size: 85%;
+    padding-bottom: 5%;
   }
 
   #hamburger {
@@ -408,11 +413,16 @@ article.reference-info {
     visibility: hidden;
   }
 
+  #mission {
+    margin-top: 5%;
+    font-size: 125%;
+  }
+
   #nav-list {
     width: 100vw;
     background-color: #E7DFF6;
     position: fixed;
-    top: 7%;
+    top: 8%;
     right: 0%;
     display: flex;
     flex-direction: column;
@@ -428,12 +438,18 @@ article.reference-info {
 
   div#kat-desc {
     padding-bottom: 5%;
+    font-size: 120%;
   }
 
   div.why-desc {
     display: flex;
     flex-direction: column;
     width: 100%;
+    font-size: 115%;
+  }
+
+  h1 {
+    font-size: 180%;
   }
 
   h2 {
@@ -442,7 +458,8 @@ article.reference-info {
   }
 
   article.why-reasons {
-    width: 100%
+    width: 100%;
+    padding-bottom: 5%;
   }
 
   .logo-name {
@@ -454,19 +471,24 @@ article.reference-info {
     margin-top: 25%;
     height: 65vh;
   }
+  section {
+    padding: 1%;
+  }
 
   #header {
-    height: 100vh;
+    
+    height: 105vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 25vh;
+    margin-bottom: 65vh;
     align-items: flex-start;
 
   }
 
   #about {
-    margin-top: 10%;
+    height: 230vh;
+    margin-bottom: 150vh;
     display: flex; 
     flex-direction: column;
     justify-content: center;
@@ -479,14 +501,15 @@ article.reference-info {
   }
 
   #projects {
-    margin-top: 40vh;
-    height: 100vh;
+    margin-top: 65vh;
+    height: 110vh;
     padding-left: 1%;
   }
 
   p.slider-p {
     padding-bottom: 55%;
     max-height: 330px;
+    font-size: 100%;
   }
 
   img.slider-img {
@@ -502,15 +525,12 @@ article.reference-info {
     margin-bottom: 15%;
   }
 
-  section {
-    height: 180vh;
-  }
-
 
 
   #contact {
-    height: 115vh;
+    height: 130vh;
     padding-left: 1%;
+    font-size: 110%;
   }
 
   .hello-company {
@@ -519,6 +539,12 @@ article.reference-info {
 
   #kat-fact {
     width: 80%;
+    font-size: 80%;
+    min-height: 200px;
+  }
+  #fun-fact {
+    margin-top: 4%;
+    margin-bottom: 4%;
   }
 
   #references {
@@ -528,11 +554,27 @@ article.reference-info {
   }
 
   article.reference-info {
-    padding-top: 5%;
+    padding-top: 3%;
+    margin-bottom: 3%;
+    width: 90%;
+    font-size: 100%;
   }
 
   p.contact-info {
+    width: 100%;
     font-size: 75%;
+    padding-bottom: 2%;
+  }
+  p.story {
+    font-size: 120%;
+  }
+
+  button {
+    margin: 1%;
+    padding: 3%;
+    font-size: 90%;
+    font-weight: 600;
+    font-style: italic;
   }
 }
 
@@ -540,6 +582,10 @@ article.reference-info {
 
 /* -largeMobile */
 @media (min-width: 601px) and (max-width: 800px) {
+
+  nav {
+    font-size: 120%;
+  }
 
   #hamburger {
     position: fixed;
@@ -601,9 +647,21 @@ article.reference-info {
     margin-top: 25%;
     height: 65vh;
   }
+  p.slider-p {
+    padding-bottom: 55%;
+    max-height: 300px;
+    font-size: 100%;
+  }
+
+  img.slider-img {
+    margin-left: 15%;
+    margin-bottom: 5%;
+    width: 70%;
+  }
 
   #header {
     height: 90vh;
+    font-size: 150%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -612,9 +670,35 @@ article.reference-info {
   section {
     height: 155vh;
   }
+  #about {
+    font-size: 140%;
+  }
+  #why {
+    font-size: 140%;
+  }
 
   #contact {
+    font-size: 140%;
+    height: 120vh;
+  }
+
+  #references {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  article.reference-info {
+    padding-top: 3%;
+    margin-bottom: 3%;
+    width: 90%;
+    font-size: 100%;
+  }
+
+
+  #projects {
     height: 110vh;
+    font-size: 140%;
   }
 
 }
@@ -623,7 +707,11 @@ article.reference-info {
 @media (min-width: 801px) and (max-width: 1120px) {
 
   article.about-me {
-    font-size: 90%;
+    font-size: 110%;
+  }
+  #about {
+    height: 90vh;
+    font-size: 120%;
   }
 
   #story-desc {
@@ -631,12 +719,26 @@ article.reference-info {
   }
 
   p.story {
-    font-size: 80%;
+    font-size: 100%;
   }
+  button {
+    font-size: 100%;
+  }
+
+  #header {
+    height: 90vh;
+  }
+
+
 
   .hello-company {
     /* font-size: 110%; */
-    margin-right: 2.5%;
+    width: 35%;
+    margin-right: 1%;
+  }
+  p#mission {
+    font-size: 120%;
+    width: 60%;
   }
   
   #project-header {
@@ -644,12 +746,20 @@ article.reference-info {
   }
 
   #projects {
-    height: 50vw;
+    font-size: 120%;
+    height: 100vh;
   }
 
-  #mission {
-    width: 60%;
+  p.slider-p {
+    font-size: 110%;
+    min-height: 325px;
   }
+  img.slider-img {
+    margin-left: 15%;
+    width: 70%;
+    margin-bottom: 8%;
+  }
+
   .logo-name {
     font-size: 105%;
     margin-right: 2.5%;
@@ -661,23 +771,64 @@ article.reference-info {
 
   .why-desc {
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     padding-right: 0%;
   }
   
   article.why-reasons {
-    
-    font-size: 75%;
+    width: 90%;
+    font-size: 125%;
     margin-right: 5%;
   }
 
+  h2 {
+    padding-top: 5%;
+    font-size: 180%;
+  }
+
+  h6 {
+    font-size: 90%;
+  }
   section {
-    height: 50vh;
+    height: 80vh;
   }
 
   #why {
-    height: 95vh;
+    
+    height: 165vh;
   }
+
+  #references {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #contact {
+    height: 100vh;
+    font-size: 130%;
+  }
+  .contact-info {
+    padding-top: 3%;
+    font-size: 100%;
+  }
+
+  #fun-fact {
+    margin-top: 10%;
+  }
+
+  article.reference-info {
+    padding-top: 3%;
+    margin-bottom: 3%;
+    width: 90%;
+    font-size: 115%;
+  }
+  h2 {
+    font-size: 150%;
+  }
+
+
 
 a {
   color: inherit;
