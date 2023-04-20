@@ -45,7 +45,7 @@ export default function About() {
               something that deeply motivates me. When I'm not coding, I'm most
               likely hiking, birdwatching, or trying new restaurants! I also
               love using my creativity through
-              <a href='https://www.sakuramoonstudio.com/'>jewellery making</a>.
+              <a href='https://www.sakuramoonstudio.com/' target='_blank' rel='noreferrer noopener'> jewellery making</a>.
             </p>
           </div>
         </article>
