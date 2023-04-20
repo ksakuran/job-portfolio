@@ -325,6 +325,10 @@ h6 {
   width: 95%;
 }
 
+article.reference-info {
+  width: 30%;
+}
+
 #refer-header {
   margin-bottom: 2%;
 }
