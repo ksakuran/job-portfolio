@@ -12,15 +12,16 @@ export default function Contact() {
     'I absolutely love ice cream, that is why I set the favicon to an ice cream cone.',
     'I love surfing, although I definitely need more practice.',
     'My sister introduced me to bird-watching when I moved to Vancouver. My favorite bird is probably the Stellar\'s Jay.',
-    'All my friends call me Kat, and you can too! Even though my name is Kat I am definitely a dog person (but I still love cats).',
+    'All my friends call me Kat, and you can too! Even though my name is Kat I am definitely a dog person (but I also love cats).',
     'My favourite hike that I have been on in BC is the Joffre Lakes Trail.',
-    'My all time favourite TV show is Mad Men, followed by Friends as a close second.',
-    'I believe pineapple belongs on pizza!',
-    'My middle name means cherry blossom in Japanese.'
+    'My all time favourite TV show is Mad Men, followed by Succession, and then Friends.',
+    'This may be controversial but I believe pineapple belongs on pizza!',
+    'My middle name means cherry blossom in Japanese.',
+    'A soon to be TV show was inspired by me!'
   ]
 
   function generateRandomInt() {
-    return Math.floor(Math.random() * 8); // generates a random integer between 0 and 6
+    return Math.floor(Math.random() * 9); // generates a random integer between 0 and 8
   }
   
   const factGenerator = () => {
